@@ -9,7 +9,7 @@ class SearchRocketReach:
         self.ips: set = set()
         self.word = word
         self.key = Core.rocketreach_key()
-        if self.key is None:
+        if self.key is None:kainamelo2000@gmail.com
             raise MissingKey('RocketReach')
         self.hosts: set = set()
         self.proxy = False
